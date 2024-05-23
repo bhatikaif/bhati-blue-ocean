@@ -29,7 +29,7 @@ date
     stage('deploy') {
       steps {
         echo 'deploy'
-        sleep 12
+        sleep(time: 1, unit: 'SECONDS')
       }
     }
 
